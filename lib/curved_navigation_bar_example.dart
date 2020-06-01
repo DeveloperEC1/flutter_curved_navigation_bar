@@ -27,9 +27,7 @@ class _CurvedNavigationBarExampleState
         return Text('Page three');
         break;
       default:
-        return Container(
-          child: Text('No page found'),
-        );
+        return Text('No page found');
         break;
     }
   }
@@ -63,10 +61,8 @@ class _CurvedNavigationBarExampleState
           );
         },
       ),
-      body: Container(
-        child: Center(
-          child: showPage,
-        ),
+      body: Center(
+        child: showPage,
       ),
     );
   }
