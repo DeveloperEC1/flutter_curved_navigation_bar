@@ -52,11 +52,9 @@ class _CurvedNavigationBarExampleState
           Future.delayed(
             Duration(milliseconds: 600),
             () {
-              setState(
-                () {
-                  showPage = pageChooser(tappedIndex);
-                },
-              );
+              setState(() {
+                showPage = pageChooser(tappedIndex);
+              });
             },
           );
         },
